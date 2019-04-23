@@ -1,0 +1,20 @@
+﻿<Window x:Class="_312840Hangman.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_312840Hangman"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <RadioButton x:Name="rbEasy" Content="Easy" />
+        <RadioButton x:Name="rbMedium" Content="Medium" />
+        <RadioButton x:Name="rbHard" Content="Hard" />
+        <Button x:Name="btnStartGame" Click="btnStartGame_Click" Content="Start Game" />
+        <TextBox x:Name="txtPlayerInput" MaxLength="1"/>
+        <Button x:Name="btnCheckLetter" Click="btnCheckLetter_Click" Content="Submit Letter" />
+        <TextBlock x:Name="tblWordDisplay" FontSize="20"/>
+        <TextBlock x:Name="tblUsedLetters" FontSize="20"/>
+        <Image x:Name="imgDisplay" />
+    </StackPanel>
+</Window>
