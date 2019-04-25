@@ -1,0 +1,10 @@
+﻿DOG
+CAT
+LOG
+FAR
+FAT
+HAT
+PET
+MEN
+LEG
+ARM
