@@ -238,7 +238,7 @@ namespace _312840Hangman
                 }
             }
             //clear txtPlayerInput
-            txtPlayerInput.Text = "Choose a difficulty option.";
+            txtPlayerInput.Text = "";
         }
     }
 }
